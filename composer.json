@@ -1,0 +1,29 @@
+{
+  "name": "45PRESS/events-toolkit",
+  "type": "wordpress-plugin",
+  "license": "MIT",
+  "description": "A WordPress plugin for managing events",
+  "authors": [
+    {
+      "name": "Reilly Lowery",
+      "email": "reilly@rifi.me",
+      "homepage": "https://github.com/RiFi2k"
+    }
+  ],
+  "keywords": [
+    "wordpress"
+  ],
+  "support": {
+    "issues": "https://github.com/45PRESS/events-toolkit/issues"
+  },
+  "require": {
+    "php": ">=5.4.0",
+    "google/apiclient": "2.2.1"
+  },
+  "require-dev": {
+    "squizlabs/php_codesniffer": "^2.5.1"
+  },
+  "config": {
+    "vendor-dir": "packages"
+  }
+}
